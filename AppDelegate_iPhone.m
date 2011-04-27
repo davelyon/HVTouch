@@ -13,7 +13,7 @@
 		
 	[application setStatusBarStyle:UIStatusBarStyleBlackOpaque];
 	self.lastImportDate = nil;
-	[self setupUserDefaults];
+	//[self setupUserDefaults];
 	[self startReachabilityMonitor];
 	
 	if([self hasConnection]) {
